@@ -8,16 +8,10 @@
     <title>Make PDF Online Free | All PDF Tools in One Place (Convert, Merge, Compress)</title>
 
     <meta name="description"
-        content="Use all PDF tools in one place: Image to PDF, JPG to PDF, Merge PDF, Compress PDF, PDF to Word, Word to PDF and more. 100% free, fast, secure and no watermark. Make your PDF online instantly.">
-    <meta name="description"
-        content="Convert Word, Excel, PowerPoint, images, and text files to PDF instantly — 100% free, secure, and online with MakeYourPDF.online. No signup needed! #PDFConverter #FreeTools #OnlinePDF #ImageToPDF #MakeYourPDF #ConvertToPDF #MergePDF #WordToPDF">
-    <meta name="keywords"
-        content="pdf converter, online pdf tool, word to pdf, excel to pdf, jpg to pdf, png to pdf, ppt to pdf, free pdf maker, convert to pdf online" />
-    <meta name="description"
-        content="Free online PDF tools to convert, merge, split, compress and edit PDF files. Fast, secure, and no signup required.">
-    <meta name="keywords"
-        content="pdf tools online, pdf converter, merge pdf, compress pdf free, image to pdf converter, word to pdf converter, split pdf, pdf editor online">
+        content="Convert Word, Excel, PowerPoint, images to PDF instantly. Free online PDF tools: merge, compress, edit PDF files. 100% free, fast, secure, no watermark. MakeYourPDF.online - All PDF tools in one place.">
 
+    <meta name="keywords"
+        content="pdf converter, online pdf tool, word to pdf, excel to pdf, jpg to pdf, png to pdf, ppt to pdf, free pdf maker, convert to pdf online, merge pdf, compress pdf, split pdf, pdf editor, image to pdf converter">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://makeyourpdf.online/">
@@ -43,6 +37,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
 
     <!-- JS Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -84,13 +79,42 @@
             }
         }
     </style>
-</head>
 
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "MakeYourPDF.online",
+        "url": "https://makeyourpdf.online/",
+        "description": "Free online PDF converter and tools",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0"
+        },
+        "featureList": [
+            "PDF Conversion",
+            "PDF Merging",
+            "PDF Compression",
+            "Image to PDF"
+        ]
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
 
 <body>
     <nav class="navbar body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://makeyourpdf.online/">
+            <a class="navbar-brand" href="/">
                 <div class="logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 1 20 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -102,16 +126,19 @@
                         <path d="M16 17H8"></path>
                     </svg>
                 </div>
-                <picture>
-                    <source media="(min-width: )" srcset="">
-                    <img src="" alt="">
-                </picture>
                 Make Your PDF
             </a>
-            <a id="convert-now" href="#uploadSection">Convert Now</a>
+            <div class="nav-links">
+                <a href="/image-to-pdf/">Image to PDF</a>
+                <a href="/merge-pdf/">Merge PDF</a>
+                <a href="/compress-pdf/">Compress PDF</a>
+                <a href="/word-to-pdf/">Word to PDF</a>
+                <a href="#tools">All Tools</a>
+            </div>
+            <a id="convert-now" href="#uploadSection" class="btn-primary">Convert Now</a>
         </div>
     </nav>
-    <div style="margin-top: 70px;">
+    <div class="main-container">
         <div class="ad-wrapper">
             <script type="text/javascript">
                 atOptions = {
@@ -130,6 +157,7 @@
         <main class="container mx-auto px-4 py-8 max-w-4xl">
             <div class="box1">
                 <div>
+                    <h1>Make Your PDF Online - Free PDF Converter & Tools</h1>
                     <h2 class="mb-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -193,7 +221,7 @@
                 src="//www.highperformanceformat.com/51eb044d4d49b79d4bd4de694a93a550/invoke.js">
                 </script>
             <div class="box3">
-                <h4>How It Works</h4>
+                <h3>How It Works</h3>
                 <div class="list">
                     <ol type="1">
                         <li>
@@ -257,6 +285,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="box3">
                 <h3>Our Free PDF Tools and Conversion Formats</h3>
                 <div class="list">
@@ -327,12 +356,22 @@
             compress a large file, or convert between formats, our tools are here to help.
             Use them anytime, anywhere – completely free.
         </p>
-
+        <div class="trust-badges">
+            <span>✓ 1 Million+ Users</span>
+            <span>✓ 100% Secure</span>
+            <span>✓ No Registration</span>
+            <span>✓ Free Forever</span>
+        </div>
     </footer>
-    <script src="dragover.js"></script>
-    <script src="toPDF2.js"></script>
-    <!-- <script src="toPDF.js"></script> -->
-    <!-- <script src="pptToPDF.js"></script> -->
+
+    <script src="dragover.js" defer></script>
+    <script src="toPDF2.js" defer></script>
+    <script>
+        const first = document.querySelector('.navbar');
+        const second = document.querySelector('.main-container');
+
+        second.style.marginTop = first.offsetHeight + 'px';
+    </script>
 </body>
 
 </html>

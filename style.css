@@ -27,13 +27,20 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(90deg, rgb(145, 149, 149), rgb(62, 62, 62));
+  background: linear-gradient(90deg, transparent, rgb(62, 62, 62));
   position: fixed;
   z-index: 10;
   width: 100%;
   top: 0px;
   border-bottom: 3px rgb(218, 217, 217) solid;
   box-shadow: 0 0 10px rgb(222, 222, 222);
+}
+
+.nav-links {
+  a {
+    margin: 5px;
+    text-decoration: none;
+  }
 }
 
 #convert-now {
@@ -57,6 +64,7 @@ body {
 button {
   background-color: #5a322a;
 }
+
 .box1 {
   background-color: #9abbc0;
   margin: 20px;
@@ -64,9 +72,6 @@ button {
   border-radius: 20px;
   border: 1px solid black;
   transition: 0.5s all;
-  &:hover {
-    transform: rotate(5deg);
-  }
 
   .power {
     color: #155dfc;
