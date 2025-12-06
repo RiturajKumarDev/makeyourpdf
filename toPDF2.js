@@ -196,3 +196,40 @@ function loadImageFromFile(file) {
         reader.readAsDataURL(file);
     });
 }
+
+// toPDF2.js में जोड़ें
+
+// File upload होने पर
+document.getElementById('inputFile').addEventListener('change', function(e) {
+  if (e.target.files.length > 0) {
+    const file = e.target.files[0];
+    
+    // DataLayer में event push करें
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      'event': 'file_upload',
+      'file_type': file.type,
+      'file_name': file.name,
+      'file_size': file.size
+    });
+  }
+});
+
+// Conversion successful होने पर
+function onConversionSuccess() {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event': 'pdf_conversion',
+    'conversion_type': 'success',
+    'timestamp': new Date().toISOString()
+  });
+}
+
+// Download click पर
+function onDownloadClick() {
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'event': 'pdf_download',
+    'action': 'download_click'
+  });
+}
