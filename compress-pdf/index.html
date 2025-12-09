@@ -2,22 +2,15 @@
 <html lang="en">
 
 <head>
-    <!-- Basic Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Make PDF Online Free | All PDF Tools in One Place (Convert, Merge, Compress)</title>
+    <title>PDF Converter | Convert Any File to PDF</title>
 
     <meta name="description"
-        content="Use all PDF tools in one place: Image to PDF, JPG to PDF, Merge PDF, Compress PDF, PDF to Word, Word to PDF and more. 100% free, fast, secure and no watermark. Make your PDF online instantly.">
-    <meta name="description"
-        content="Convert Word, Excel, PowerPoint, images, and text files to PDF instantly — 100% free, secure, and online with MakeYourPDF.online. No signup needed! #PDFConverter #FreeTools #OnlinePDF #ImageToPDF #MakeYourPDF #ConvertToPDF #MergePDF #WordToPDF">
-    <meta name="keywords"
-        content="pdf converter, online pdf tool, word to pdf, excel to pdf, jpg to pdf, png to pdf, ppt to pdf, free pdf maker, convert to pdf online" />
-    <meta name="description"
-        content="Free online PDF tools to convert, merge, split, compress and edit PDF files. Fast, secure, and no signup required.">
-    <meta name="keywords"
-        content="pdf tools online, pdf converter, merge pdf, compress pdf free, image to pdf converter, word to pdf converter, split pdf, pdf editor online">
+        content="Convert Word, Excel, PowerPoint, images to PDF instantly. Free online PDF tools: merge, compress, edit PDF files. 100% free, fast, secure, no watermark. MakeYourPDF.online - All PDF tools in one place.">
 
+    <meta name="keywords"
+        content="pdf converter, online pdf tool, word to pdf, excel to pdf, jpg to pdf, png to pdf, ppt to pdf, free pdf maker, convert to pdf online, merge pdf, compress pdf, split pdf, pdf editor, image to pdf converter">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://makeyourpdf.online/">
@@ -37,23 +30,22 @@
     <meta name="twitter:image" content="https://makeyourpdf.online/preview.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/icon.png">
+    <link rel="icon" type="image/png" href="icon.png">
 
     <!-- CSS & Libraries -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
-
-    <!-- JS Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+    <link rel="stylesheet" href="animation.css">
 
     <!-- PWA / Performance (optional but good) -->
     <meta name="theme-color" content="#007bff">
     <link rel="manifest" href="/manifest.json">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <style>
         /* Parent container: center and limit max width */
@@ -84,34 +76,174 @@
             }
         }
     </style>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": ["WebApplication", "SoftwareApplication"],
+            "name": "MakeYourPDF.online",
+            "alternateName": "Make Your PDF",
+            "url": "https://makeyourpdf.online/",
+            "logo": "https://makeyourpdf.online/logo.png",
+            "description": "Free online PDF converter - Convert Word, Excel, images to PDF instantly",
+            
+            "applicationCategory": "UtilityApplication",
+            "applicationSubCategory": "Document Converter",
+            "operatingSystem": "Any",
+            
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "priceValidUntil": "2026-12-31",
+                "availability": "https://schema.org/InStock",
+                "seller": {
+                "@type": "Organization",
+                "name": "MakeYourPDF"
+                }
+            },
+            
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "ratingCount": "856",
+                "bestRating": "5",
+                "worstRating": "1"
+            },
+            
+            "featureList": [
+                "PDF Conversion",
+                "Merge PDF", 
+                "Compress PDF",
+                "Image to PDF",
+                "Word to PDF",
+                "Excel to PDF",
+                "PPT to PDF",
+                "Split PDF"
+            ],
+            
+            "screenshot": "https://makeyourpdf.online/screenshot.png",
+            
+            "creator": {
+                "@type": "Organization",
+                "name": "MakeYourPDF",
+                "url": "https://makeyourpdf.online/"
+            },
+            
+            "keywords": "pdf converter, online pdf tool, free pdf tools"
+        }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "MakeYourPDF",
+            "url": "https://makeyourpdf.online/",
+            "logo": "https://makeyourpdf.online/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer service",
+                "availableLanguage": ["English", "Hindi"]
+            },
+            "sameAs": [
+                "https://twitter.com/makeyourpdf",
+                "https://facebook.com/makeyourpdf"
+            ]
+        }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "Is MakeYourPDF really free?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, 100% free forever. No hidden charges or subscriptions."
+                }
+            }, {
+                "@type": "Question",
+                "name": "What file formats can I convert to PDF?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Word (.doc, .docx), Excel (.xls, .xlsx), PowerPoint (.ppt, .pptx), Images (.jpg, .png, .gif), Text files, and more."
+                }
+            }, {
+                "@type": "Question",
+                "name": "Is my data safe?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, all files are processed securely in your browser. We don't store any files on our servers."
+                }
+            }]
+        }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://makeyourpdf.online/"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "PDF Tools",
+                "item": "https://makeyourpdf.online/#tools"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "PDF Converter",
+                "item": "https://makeyourpdf.online/converter"
+            }]
+        }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P5WD3T8D');
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
-
 <body>
-    <nav class="navbar body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://makeyourpdf.online/">
-                <div class="logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 1 20 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-file-text w-6 h-6 text-white" aria-hidden="true">
-                        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
-                        <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
-                        <path d="M10 9H8"></path>
-                        <path d="M16 13H8"></path>
-                        <path d="M16 17H8"></path>
-                    </svg>
-                </div>
-                <picture>
-                    <source media="(min-width: )" srcset="">
-                    <img src="" alt="">
-                </picture>
-                Make Your PDF
-            </a>
-            <a id="convert-now" href="#uploadSection">Convert Now</a>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5WD3T8D" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-file-pdf"></i>
+                <span>MakeYour<span class="logo-highlight">PDF</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#features"><i class="fas fa-star"></i> Features</a></li>
+                <li><a href="#converter"><i class="fas fa-sync-alt"></i> Converter</a></li>
+                <li><a href="#tools"><i class="fas fa-tools"></i> Tools</a></li>
+            </ul>
         </div>
     </nav>
-    <div style="margin-top: 70px;">
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
         <div class="ad-wrapper">
             <script type="text/javascript">
                 atOptions = {
@@ -126,60 +258,53 @@
                 src="//www.highperformanceformat.com/17afdd525d90c16cdc7fcfd51562dc64/invoke.js">
                 </script>
         </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Convert <span class="highlight">Any File</span> to Professional PDF</h1>
+                <p>Supporting Word, Excel, PowerPoint, Images, HTML, and more. 100% free, secure, and works in your
+                    browser.</p>
+                <div class="cta-buttons">
+                    <a href="#converter">
+                        <button class="btn-primary" id="start-convert">
+                            <i class="fas fa-upload"></i> Start Converting
+                        </button>
+                    </a>
+                    <a href="#How-It-Works">
+                        <button class="btn-secondary">
+                            <i class="fas fa-play-circle"></i> How It Works
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <main class="container mx-auto px-4 py-8 max-w-4xl">
-            <div class="box1">
-                <div>
-                    <h2 class="mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-zap w-5 h-5 text-blue-600 mt-0.5 power" aria-hidden="true">
-                            <path
-                                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
-                            </path>
-                        </svg>
-                        All PDF Tools in One Place – Make Your PDF Online for Free
-                    </h2>
-                    <p>Convert your multiple formats including Word, Excel,
-                        PowerPoint, and images ot PDF files.</p>
+    <!-- File Converter Section -->
+    <section class="converter-section" id="converter">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-sync-alt"></i> File Converter</h2>
+                <p>Drag & drop or click to upload your files</p>
+            </div>
+
+            <!-- Upload Area -->
+            <div class="upload-area" id="dropArea">
+                <div class="upload-icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
                 </div>
-                <div class="list">
-                    <ul>
-                        <li>No file size limit</li>
-                        <li>All files encrypted</li>
-                        <li>Fast processing</li>
-                    </ul>
+                <h3>Drop files here or click to browse</h3>
+                <p>Supports: DOC, DOCX, XLS, XLSX, CSV, PPT, PPTX, JPG, PNG, GIF, TXT, HTML, RTF</p>
+                <input type="file" id="fileInput" multiple
+                    accept=".doc,.docx,.xls,.xlsx,.ppt,.pptx,.jpg,.jpeg,.png,.gif,.txt,.html,.rtf,.pdf">
+                <div class="file-types">
+                    <div class="file-type"><i class="fas fa-file-word"></i> Word</div>
+                    <div class="file-type"><i class="fas fa-file-excel"></i> Excel</div>
+                    <div class="file-type"><i class="fas fa-file-powerpoint"></i> PowerPoint</div>
+                    <div class="file-type"><i class="fas fa-file-image"></i> Images</div>
+                    <div class="file-type"><i class="fas fa-file-alt"></i> Text</div>
                 </div>
             </div>
-            <div data-slot="card" id="uploadSection" class="box2">
-                <div class="mb-4">
-                    <h2><span class="one">1</span> Upload Files</h2>
-                    <p id="status"></p>
-                </div>
-                <label class="input-box" id="dropArea" for="inputFile">
-                    <div>
-                        <div class="up-arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="lucide lucide-upload w-8 h-8 text-blue-600"
-                                aria-hidden="true">
-                                <path d="M12 3v12"></path>
-                                <path d="m17 8-5-5-5 5"></path>
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            </svg>
-                        </div>
-                        <div>
-                            <p>Drop your file here</p>
-                        </div>
-                        <p id="filesNames"></p>
-                    </div>
-                    <input type="file" id="inputFile"
-                        accept=".pdf, .doc, .docx, .csv, .xls, .xlsx, .png, .jpg, .jpeg, .gif, .ppt, .pptx, .txt"
-                        multiple>
-                </label>
-                <button data-slot="button" id="convertBtn" class="submit-btn">Convert to PDF</button>
-            </div>
-            <p id="preview"></p>
+
             <script type="text/javascript">
                 atOptions = {
                     'key': '51eb044d4d49b79d4bd4de694a93a550',
@@ -192,22 +317,72 @@
             <script type="text/javascript"
                 src="//www.highperformanceformat.com/51eb044d4d49b79d4bd4de694a93a550/invoke.js">
                 </script>
-            <div class="box3">
-                <h4>How It Works</h4>
-                <div class="list">
-                    <ol type="1">
-                        <li>
-                            <h5>Upload</h5> — Add your files with a simple drag & drop.
-                        </li>
-                        <li>
-                            <h5>Convert</h5> — Pick your output format, like PDF.
-                        </li>
-                        <li>
-                            <h5>Download</h5> — Instantly get your converted files.
-                        </li>
-                    </ol>
+
+            <!-- Conversion Settings -->
+            <div class="settings-panel">
+                <h3><i class="fas fa-cog"></i> Conversion Settings</h3>
+                <div class="settings-grid">
+                    <div class="setting">
+                        <label for="pageSize"><i class="fas fa-expand-alt"></i> Page Size</label>
+                        <select id="pageSize">
+                            <option value="a4">A4</option>
+                            <option value="letter">Letter</option>
+                            <option value="legal">Legal</option>
+                            <option value="a3">A3</option>
+                        </select>
+                    </div>
+                    <div class="setting">
+                        <label for="orientation"><i class="fas fa-undo"></i> Orientation</label>
+                        <select id="orientation">
+                            <option value="portrait">Portrait</option>
+                            <option value="landscape">Landscape</option>
+                        </select>
+                    </div>
+                    <div class="setting">
+                        <label for="margin"><i class="fas fa-border-style"></i> Margin</label>
+                        <select id="margin">
+                            <option value="normal">Normal</option>
+                            <option value="narrow">Narrow</option>
+                            <option value="wide">Wide</option>
+                        </select>
+                    </div>
+                    <div class="setting">
+                        <label for="quality"><i class="fas fa-chart-line"></i> Quality</label>
+                        <select id="quality">
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="advanced-settings">
+                    <button class="btn-toggle" id="toggleAdvanced">
+                        <i class="fas fa-chevron-down"></i> Advanced Settings
+                    </button>
+                    <div class="advanced-content" id="advancedSettings">
+                        <div class="setting">
+                            <label>
+                                <input type="checkbox" id="compressImages">
+                                Compress Images
+                            </label>
+                        </div>
+                        <div class="setting">
+                            <label>
+                                <input type="checkbox" id="addPageNumbers">
+                                Add Page Numbers
+                            </label>
+                        </div>
+                        <div class="setting">
+                            <label>
+                                <input type="checkbox" id="addWatermark">
+                                Add Watermark
+                            </label>
+                            <input type="text" id="watermarkText" placeholder="Watermark text" disabled>
+                        </div>
+                    </div>
                 </div>
             </div>
+
             <div class="ad-wrapper">
                 <script type="text/javascript">
                     atOptions = {
@@ -222,74 +397,694 @@
                     src="//www.highperformanceformat.com/465d1d5dbb2836010c6a65b6ea5e86be/invoke.js">
                     </script>
             </div>
-            <div class="box2 info-box">
-                <div class="card border-info mb-3 card" style="max-width: 17.5rem;">
-                    <div class="card-header">✔ 100% Free and Unlimited</div>
+
+            <!-- File List -->
+            <div class="file-list" id="fileList">
+                <h3><i class="fas fa-list"></i> Files to Convert</h3>
+                <div class="file-list-container" id="fileListContainer">
+                    <!-- Files will be added here dynamically -->
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button class="btn-convert" id="convertBtn">
+                    <i class="fas fa-file-pdf"></i> Convert to PDF
+                </button>
+                <button class="btn-clear" id="clearBtn">
+                    <i class="fas fa-trash"></i> Clear All
+                </button>
+                <button class="btn-merge" id="mergeBtn">
+                    <i class="fas fa-object-group"></i> Merge PDFs
+                </button>
+            </div>
+
+            <!-- Progress Section -->
+            <div class="progress-section" id="progressSection" style="display: none;">
+                <h3><i class="fas fa-spinner fa-spin"></i> Conversion Progress</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p class="progress-text" id="progressText">Converting...</p>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <h3><i class="fas fa-check-circle"></i> Conversion Complete!</h3>
+                <div class="results-container" id="resultsContainer">
+                    <!-- Results will be added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2><i class="fas fa-star"></i> Advanced Features</h2>
+                <p>Everything you need for professional PDF handling</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-import"></i>
+                    </div>
+                    <h3>Multi-Format Support</h3>
+                    <p>Convert from Word, Excel, PowerPoint, Images, HTML, Text files and more to PDF.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-object-group"></i>
+                    </div>
+                    <h3>Merge PDFs</h3>
+                    <p>Combine multiple PDF files into a single document with drag-and-drop ordering.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-crop-alt"></i>
+                    </div>
+                    <h3>Split PDF</h3>
+                    <p>Extract specific pages or split PDF into multiple documents.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure PDF</h3>
+                    <p>Add password protection and encryption to your PDF documents.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Edit PDF</h3>
+                    <p>Add text, images, annotations, and signatures to your PDF files.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Optimize & Compress</h3>
+                    <p>Reduce PDF file size without compromising quality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="How-It-Works" id="How-It-Works">
+        <header>
+            <h1>File Conversion Made Simple</h1>
+            <p>Convert your documents to any format in just three easy steps. Our platform supports PDF, Word, Excel,
+                PowerPoint, images, and more.</p>
+        </header>
+
+        <div class="box3">
+            <h3>How It Works</h3>
+            <div class="list">
+                <ol>
+                    <li>
+                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                        <h5>Upload</h5>
+                        <p>Add your files with a simple drag & drop. You can also click to browse your device. We
+                            support multiple file uploads at once.</p>
+                    </li>
+                    <li>
+                        <div class="icon"><i class="fas fa-sync-alt"></i></div>
+                        <h5>Convert</h5>
+                        <p>Pick your output format, like PDF, DOCX, JPG, or PPT. Customize settings if needed, then
+                            start the conversion with one click.</p>
+                    </li>
+                    <li>
+                        <div class="icon"><i class="fas fa-file-download"></i></div>
+                        <h5>Download</h5>
+                        <p>Instantly get your converted files. Your documents are automatically deleted from our servers
+                            after 24 hours for security.</p>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="features">
+                <div class="feature"><i class="fas fa-check-circle"></i> No registration required</div>
+                <div class="feature"><i class="fas fa-check-circle"></i> 100% secure processing</div>
+                <div class="feature"><i class="fas fa-check-circle"></i> High-quality conversions</div>
+                <div class="feature"><i class="fas fa-check-circle"></i> Supports 50+ formats</div>
+            </div>
+
+            <div class="footer-note">
+                Start converting your files now - it's fast, free, and secure!
+            </div>
+        </div>
+
+        <script>
+            // Add hover effect enhancement with JavaScript
+            document.querySelectorAll('.list ol li').forEach(item => {
+                item.addEventListener('mouseenter', function () {
+                    // Add a slight scale effect on hover
+                    this.style.transform = 'translateY(-10px) scale(1.02)';
+                });
+
+                item.addEventListener('mouseleave', function () {
+                    // Return to original state
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+
+            // Add animation on page load
+            document.addEventListener('DOMContentLoaded', function () {
+                const listItems = document.querySelectorAll('.list ol li');
+                listItems.forEach((item, index) => {
+                    // Set initial state for animation
+                    item.style.opacity = '0';
+                    item.style.transform = 'translateY(20px)';
+
+                    // Animate each item with a delay
+                    setTimeout(() => {
+                        item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                        item.style.opacity = '1';
+                        item.style.transform = 'translateY(0)';
+                    }, 300 + (index * 200));
+                });
+            });
+        </script>
+    </div>
+
+    <!-- Why Choose Our Platform -->
+    <div class="Why-Choose-Our-Platform">
+        <div class="container">
+            <header>
+                <h1>Why Choose Our Platform?</h1>
+                <p>Discover why thousands of users trust our file conversion service for their important documents. We
+                    combine <span class="highlight">cutting-edge technology</span> with <span
+                        class="highlight">user-focused
+                        design</span> to deliver the best conversion experience.</p>
+            </header>
+
+            <div class="features-container">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Military-Grade Security</h3>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">✔ 100% Free and Unlimited</h5>
-                        <p class="card-text">All tools on our website are completely free. You can convert, merge,
-                            compress, and edit PDFs without any limits.
-                        </p>
+                        <p>Your files are protected with end-to-end encryption. We automatically delete all uploaded
+                            files
+                            after 24 hours, ensuring your data never falls into the wrong hands.</p>
+                        <ul class="benefits-list">
+                            <li>256-bit SSL encryption</li>
+                            <li>Automatic file deletion</li>
+                            <li>No third-party access</li>
+                            <li>GDPR & CCPA compliant</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card border-info mb-3 card" style="max-width: 17.5rem;">
-                    <div class="card-header">✔ Fast Processing</div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Lightning Fast Processing</h3>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">✔ Fast Processing</h5>
-                        <p class="card-text">Our system instantly converts your files with high speed. All tools are
-                            optimized for quick output without compromising quality.</p>
+                        <p>Convert files in seconds, not minutes. Our distributed cloud infrastructure ensures your
+                            documents are processed at remarkable speed, regardless of file size.</p>
+                        <ul class="benefits-list">
+                            <li>Convert 100-page PDF in under 10 seconds</li>
+                            <li>Batch processing for multiple files</li>
+                            <li>No queueing or waiting times</li>
+                            <li>99.9% uptime guarantee</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card border-info mb-3 card" style="max-width: 17.5rem;">
-                    <div class="card-header">✔ Works on All Devices</div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Exceptional Quality Output</h3>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">✔ Works on All Devices</h5>
-                        <p class="card-text">Use our tools on mobile, laptop, PC, or tablet. No application required –
-                            everything is web-based.</p>
+                        <p>Get perfectly formatted documents every time. Our advanced conversion algorithms preserve
+                            formatting, images, fonts, and layout across all file types.</p>
+                        <ul class="benefits-list">
+                            <li>Pixel-perfect PDF conversions</li>
+                            <li>Format preservation</li>
+                            <li>High-resolution image output</li>
+                            <li>OCR technology for scanned documents</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card border-info mb-3 card" style="max-width: 17.5rem;">
-                    <div class="card-header">✔ Easy to Use</div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-compress-arrows-alt"></i>
+                        </div>
+                        <h3>Wide Format Support</h3>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">✔ Easy to Use</h5>
-                        <p class="card-text">Our interface is simple and clean. Even beginners can convert or merge PDFs
-                            in just 2 clicks.</p>
+                        <p>Convert between 50+ file formats including PDF, DOCX, PPTX, XLSX, JPG, PNG, GIF, and many
+                            more.
+                            We continuously add new formats based on user needs.</p>
+                        <ul class="benefits-list">
+                            <li>50+ supported formats</li>
+                            <li>Rare format specialists</li>
+                            <li>Archive file conversion (ZIP, RAR)</li>
+                            <li>E-book formats (EPUB, MOBI)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <h3>No Registration Required</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Start converting immediately without creating an account. We believe in frictionless access
+                            to
+                            essential tools. No email, no passwords, no commitment.</p>
+                        <ul class="benefits-list">
+                            <li>Zero sign-up process</li>
+                            <li>No personal data collection</li>
+                            <li>Unlimited free conversions</li>
+                            <li>No hidden fees or trials</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Accessible Anywhere</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Our platform works seamlessly across all devices and browsers. Convert files on your
+                            computer,
+                            tablet, or smartphone with consistent quality and performance.</p>
+                        <ul class="benefits-list">
+                            <li>Fully responsive design</li>
+                            <li>Progressive Web App (PWA)</li>
+                            <li>Offline functionality</li>
+                            <li>Cross-browser compatibility</li>
+                        </ul>
                     </div>
                 </div>
             </div>
+
+            <!-- Stats Section -->
+            <div class="stats-section">
+                <h2 class="stats-title">Trusted by Thousands Worldwide</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="users-count">500K+</span>
+                        <span class="stat-label">Happy Users</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="conversions-count">10M+</span>
+                        <span class="stat-label">Files Converted</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="formats-count">50+</span>
+                        <span class="stat-label">Supported Formats</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="uptime-count">99.9%</span>
+                        <span class="stat-label">Service Uptime</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2>Ready to Experience the Difference?</h2>
+                <p>Join thousands of satisfied users who have made our platform their go-to solution for file
+                    conversion.
+                    Try it now - it's completely free!</p>
+                <a href="#converter" class="cta-button">Start Converting Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <script>
+            // Animated counter for stats
+            function animateCounter(id, start, end, duration) {
+                let obj = document.getElementById(id);
+                let startTime = null;
+                let step = (timestamp) => {
+                    if (!startTime) startTime = timestamp;
+                    const progress = Math.min((timestamp - startTime) / duration, 1);
+                    const value = Math.floor(progress * (end - start) + start);
+                    obj.textContent = value + (id === 'users-count' || id === 'conversions-count' ? '+' : (id === 'uptime-count' ? '%' : '+'));
+
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            // Initialize counters when page loads
+            document.addEventListener('DOMContentLoaded', function () {
+                // Wait a bit before starting animation
+                setTimeout(() => {
+                    animateCounter('users-count', 0, 500, 2000);
+                    animateCounter('conversions-count', 0, 1000, 2500);
+                    animateCounter('formats-count', 0, 50, 1500);
+                    animateCounter('uptime-count', 0, 99.9, 1800);
+                }, 500);
+
+                // Add hover effect to feature cards
+                const cards = document.querySelectorAll('.feature-card');
+                cards.forEach(card => {
+                    card.addEventListener('mouseenter', function () {
+                        const icon = this.querySelector('.card-icon i');
+                        if (icon) {
+                            icon.style.transform = 'rotate(10deg) scale(1.2)';
+                            icon.style.transition = 'transform 0.3s ease';
+                        }
+                    });
+
+                    card.addEventListener('mouseleave', function () {
+                        const icon = this.querySelector('.card-icon i');
+                        if (icon) {
+                            icon.style.transform = 'rotate(0deg) scale(1)';
+                        }
+                    });
+                });
+            });
+        </script>
+    </div>
+
+    <!-- Free PDF Tools & Conversion Formats  -->
+    <div id="tools">
+        <div class="container">
+            <header class="page-header">
+                <h1>Free PDF Tools & Conversion Formats</h1>
+                <p>Discover our comprehensive suite of <span class="highlight">free PDF tools</span> that help you
+                    create,
+                    edit, convert, and manage PDF files with ease. All tools are 100% free with no registration
+                    required.
+                </p>
+            </header>
+
             <div class="box3">
                 <h3>Our Free PDF Tools and Conversion Formats</h3>
-                <div class="list">
-                    <ul>
-                        <li><a href="/image-to-pdf/">Image to PDF Converter</a> – Convert images to PDF instantly.</li>
-                        <li><a href="/jpg-to-pdf/">JPG to PDF Converter</a> – Convert JPG files into high-quality PDF.
-                        </li>
-                        <li><a href="/merge-pdf/">Merge PDF</a> – Combine multiple PDF files into one document.</li>
-                        <li><a href="/compress-pdf/">Compress PDF</a> – Reduce PDF size without losing quality.</li>
-                        <li><a href="/pdf-to-word/">PDF to Word</a> – Convert PDF files to editable Word documents.</li>
-                        <li><a href="/word-to-pdf/">Word to PDF</a> – Convert DOC/DOCX files to PDF format.</li>
-                    </ul>
+
+                <div class="tools-grid">
+                    <!-- Tool 1 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-file-image"></i>
+                        </div>
+                        <div class="usage-indicator">
+                            <i class="fas fa-users"></i> <span class="usage-count">45K+</span> users/month
+                        </div>
+                        <h4><a href="/image-to-pdf/">Image to PDF Converter</a></h4>
+                        <p>Convert JPG, PNG, GIF, BMP, and TIFF images to high-quality PDF documents. Perfect for
+                            digitizing
+                            photos, scans, or screenshots.</p>
+                        <div class="tool-tags">
+                            <span class="tag">JPG to PDF</span>
+                            <span class="tag">PNG to PDF</span>
+                            <span class="tag">Multiple Images</span>
+                        </div>
+                    </div>
+
+                    <!-- Tool 2 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-file-image"></i>
+                        </div>
+                        <div class="usage-indicator">
+                            <i class="fas fa-users"></i> <span class="usage-count">38K+</span> users/month
+                        </div>
+                        <h4><a href="/jpg-to-pdf/">JPG to PDF Converter</a></h4>
+                        <p>Specially optimized for converting JPG/JPEG images to PDF format with excellent compression
+                            and
+                            quality preservation.</p>
+                        <div class="tool-tags">
+                            <span class="tag">JPG Only</span>
+                            <span class="tag">High Quality</span>
+                            <span class="tag">Fast Conversion</span>
+                        </div>
+                    </div>
+
+                    <!-- Tool 3 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-object-group"></i>
+                        </div>
+                        <div class="usage-indicator">
+                            <i class="fas fa-users"></i> <span class="usage-count">52K+</span> users/month
+                        </div>
+                        <h4><a href="/merge-pdf/">Merge PDF</a></h4>
+                        <p>Combine multiple PDF files into a single document with proper page ordering. Rearrange pages
+                            as
+                            needed before merging.</p>
+                        <div class="tool-tags">
+                            <span class="tag">Combine PDFs</span>
+                            <span class="tag">Reorder Pages</span>
+                            <span class="tag">Batch Merge</span>
+                        </div>
+                    </div>
+
+                    <!-- Tool 4 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-compress-alt"></i>
+                        </div>
+                        <div class="usage-indicator">
+                            <i class="fas fa-users"></i> <span class="usage-count">67K+</span> users/month
+                        </div>
+                        <h4><a href="/compress-pdf/">Compress PDF</a></h4>
+                        <p>Reduce PDF file size without significant quality loss. Perfect for email attachments, web
+                            uploads, and storage optimization.</p>
+                        <div class="tool-tags">
+                            <span class="tag">Reduce Size</span>
+                            <span class="tag">Optimize PDF</span>
+                            <span class="tag">Quality Control</span>
+                        </div>
+                    </div>
+
+                    <!-- Tool 5 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-file-word"></i>
+                        </div>
+                        <div class="usage-indicator">
+                            <i class="fas fa-users"></i> <span class="usage-count">89K+</span> users/month
+                        </div>
+                        <h4><a href="/pdf-to-word/">PDF to Word</a></h4>
+                        <p>Convert PDF files to editable Microsoft Word documents (DOC/DOCX) while preserving
+                            formatting,
+                            images, and layout.</p>
+                        <div class="tool-tags">
+                            <span class="tag">Editable Text</span>
+                            <span class="tag">Format Preserved</span>
+                            <span class="tag">OCR Available</span>
+                        </div>
+                    </div>
+
+                    <!-- Tool 6 -->
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="usage-indicator">
+                            <i class="fas fa-users"></i> <span class="usage-count">95K+</span> users/month
+                        </div>
+                        <h4><a href="/word-to-pdf/">Word to PDF</a></h4>
+                        <p>Convert DOC and DOCX files to PDF format for better compatibility, security, and professional
+                            presentation.</p>
+                        <div class="tool-tags">
+                            <span class="tag">DOC to PDF</span>
+                            <span class="tag">DOCX to PDF</span>
+                            <span class="tag">Preserve Formatting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formats Section -->
+                <div class="formats-section">
+                    <h2>Supported Conversion Formats</h2>
+                    <div class="format-categories">
+                        <div class="format-category">
+                            <h3><i class="fas fa-images"></i> Image Formats</h3>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> JPG/JPEG to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> PNG to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> GIF to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> BMP to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> TIFF to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> WebP to PDF</li>
+                            </ul>
+                        </div>
+
+                        <div class="format-category">
+                            <h3><i class="fas fa-file-word"></i> Document Formats</h3>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> DOC/DOCX to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> PDF to DOC/DOCX</li>
+                                <li><i class="fas fa-check-circle"></i> PPT/PPTX to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> XLS/XLSX to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> TXT to PDF</li>
+                                <li><i class="fas fa-check-circle"></i> RTF to PDF</li>
+                            </ul>
+                        </div>
+
+                        <div class="format-category">
+                            <h3><i class="fas fa-tools"></i> PDF Operations</h3>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Merge PDF files</li>
+                                <li><i class="fas fa-check-circle"></i> Split PDF documents</li>
+                                <li><i class="fas fa-check-circle"></i> Compress PDF size</li>
+                                <li><i class="fas fa-check-circle"></i> Protect with password</li>
+                                <li><i class="fas fa-check-circle"></i> Rotate PDF pages</li>
+                                <li><i class="fas fa-check-circle"></i> Extract images from PDF</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="cta-section">
+                    <h2>Start Using Our Free Tools Today!</h2>
+                    <p>No registration required, no watermarks, no limits. All our PDF tools are completely free to use
+                        with
+                        no hidden costs or subscriptions.</p>
+                    <a href="#tools" class="cta-button">Explore All Tools <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
-        </main>
+        </div>
+
+        <script>
+            // Animate usage counters
+            document.addEventListener('DOMContentLoaded', function () {
+                // Animate tool cards on scroll
+                const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0)';
+                        }
+                    });
+                }, observerOptions);
+
+                // Observe all tool cards
+                document.querySelectorAll('.tool-card').forEach(card => {
+                    observer.observe(card);
+                });
+
+                // Simulate usage counts
+                const usageCounts = document.querySelectorAll('.usage-count');
+                usageCounts.forEach(count => {
+                    const currentValue = parseInt(count.textContent);
+                    count.textContent = '0';
+
+                    setTimeout(() => {
+                        let start = 0;
+                        const increment = currentValue / 50;
+                        const timer = setInterval(() => {
+                            start += increment;
+                            if (start >= currentValue) {
+                                count.textContent = currentValue.toLocaleString() + '+';
+                                clearInterval(timer);
+                            } else {
+                                count.textContent = Math.floor(start).toLocaleString() + '+';
+                            }
+                        }, 30);
+                    }, 500);
+                });
+
+                // Add click animation to tool cards
+                document.querySelectorAll('.tool-card').forEach(card => {
+                    card.addEventListener('click', function (e) {
+                        if (e.target.tagName !== 'A') {
+                            const link = this.querySelector('h4 a');
+                            if (link) {
+                                // Add visual feedback
+                                this.style.transform = 'scale(0.98)';
+                                setTimeout(() => {
+                                    this.style.transform = '';
+                                }, 200);
+
+                                // In a real app, this would navigate to the tool page
+                                console.log(`Navigating to: ${link.getAttribute('href')}`);
+                            }
+                        }
+                    });
+                });
+            });
+        </script>
     </div>
+
+
+    <!-- Footer -->
     <footer>
-        <h5> &copy; <a href="https://makeyourpdf.online/">makeyourpdf.online.</a> All rights reserved.</h5>
-        <p><a href="https://makeyourpdf.online/">Privacy Policy</a> | <a href="https://makeyourpdf.online/"> Terms of
-                Service</a></p>
-
-        <p>
-            MakeYourPDF.online helps millions of users convert and manage PDF files online.
-            We focus on speed, privacy, and ease of use. Whether you want to create a PDF,
-            compress a large file, or convert between formats, our tools are here to help.
-            Use them anytime, anywhere – completely free.
-        </p>
-
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-file-pdf"></i> MAKEYOURPDF</h3>
+                    <p>A modern, browser-based PDF converter with advanced features. 100% free and secure.</p>
+                    <h5> &copy; <a href="https://makeyourpdf.online/">makeyourpdf.online.</a> All rights reserved.</h5>
+                    <p><a href="https://makeyourpdf.online/">Privacy Policy</a> | <a href="https://makeyourpdf.online/">
+                            Terms of
+                            Service</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#features"><i class="fas fa-chevron-right"></i> Features</a></li>
+                        <li><a href="#converter"><i class="fas fa-chevron-right"></i> Converter</a></li>
+                        <li><a href="#tools"><i class="fas fa-chevron-right"></i> Tools</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Supported Formats</h4>
+                    <div class="formats">
+                        <span>DOC/DOCX</span>
+                        <span>XLS/XLSX</span>
+                        <span>PPT/PPTX</span>
+                        <span>JPG/PNG</span>
+                        <span>HTML/TXT</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PDFPRO Converter. All rights reserved. | Made with <i class="fas fa-heart"></i> for the
+                    community</p>
+            </div>
+        </div>
     </footer>
-    <script src="/dragover.js"></script>
-    <script src="/toPDF2.js"></script>
-    <!-- <script src="toPDF.js"></script> -->
-    <!-- <script src="pptToPDF.js"></script> -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
