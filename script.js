@@ -5,7 +5,7 @@ class PDFConverter {
         this.initializeElements();
         this.bindEvents();
         this.initializeTheme();
-        this.initializeModal();
+        // this.initializeModal();
         this.checkLibraries();
     }
 
